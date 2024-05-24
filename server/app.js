@@ -20,6 +20,7 @@ app.get("/products", (req, res) => {
     })
 })
 
+
 app.post( "/product/add", (req, res) => {
     const
         barcode = req.body.barcode,
